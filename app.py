@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 def main():
-    st.set_page_config(page_title="SpamSweeper", page_icon="🐶")
+    st.set_page_config(page_title="SpamSniffer", page_icon="🐶")
     st.markdown(
         """
         <style>
@@ -35,7 +35,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("🐶 SpamSweeper")
+    st.title("🐶 SpamSniffer")
     
     user_input = st.text_input("Enter a message:")
 
