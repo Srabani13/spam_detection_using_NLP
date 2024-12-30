@@ -4,7 +4,7 @@ import requests
 
 
 def main():
-    st.title("Streamlit App")
+    st.title("Stream sravy App")
     
     user_input = st.text_input("Enter a message:")
 
