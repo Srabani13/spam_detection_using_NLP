@@ -1,0 +1,8 @@
+Required steps to follow:
+Import libraries 
+data cleaning
+EDA
+Model training 
+bulid the trained Model
+integrate this model with backend API 
+Deploying application with streamlit and creating UI

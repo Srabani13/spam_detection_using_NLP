@@ -1,0 +1,8 @@
+.streamlit/
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.ipynb_checkpoints
+project.text
+sms-spam.csv
