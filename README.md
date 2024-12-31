@@ -46,7 +46,7 @@ Each model was assessed based on accuracy, precision, recall, and F1-score. The 
 
 ## Deployment :
 The model was deployed on the web using Streamlit. The user interface has a simple input box where the user can input a message, and the model will predict whether it is spam or not spam.
-
+[Live Web Page](https://spamdetectionusingnlp-ltv9tpfffafjxamchorptd.streamlit.app/)
 
 ## Installation
 **To use the SMS Spam Detection model on your machine**, **follow these steps:**
