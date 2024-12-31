@@ -41,11 +41,11 @@ def main():
 
     if st.button("Predict"):
         data = {"message": [user_input]}
-        response = requests.post("http://localhost:5000/predict", json=data)
+        response = requests.post("http://127.0.0.1:5000/predict", json=data)
 
         if response.status_code == 200:
-           result = response.text
-           st.success(f"The prediction is: {result}")
+            result = response.json()
+            st.success(f"The prediction is: {result['prediction']}")
         else:
             st.error("An error occurred")
 
